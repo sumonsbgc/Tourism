@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    /* background-color: #fff !important; */
+    color:#000;
+}
+.container .jumbotron, .container-fluid .jumbotron {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.packageArea {
+    background-color: #45B39E;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    width: 90%;
+}
+
+.packages {
+    clear: both;
+    display: block;
+    margin: 20px 0;
+    overflow: hidden;
+    padding: 20px;
+    width: 100%;
+}
+
+.thumb{
+    display: inline-block;
+    float: left;
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+.packageInfo > h3 {
+    color: #ddd;
+    font-size: 20px;
+}
+.packageInfo a {
+    color: #430BDB;
+    font-family: helvetica, tahoma;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.packageInfo > p {
+     color: #fff;
+     font-family: tahoma;
+     line-height: 30px;
+ }
+.alignCenter {
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 85%;
+}
+#page-wrapper {
+    background-color: #fff;
+}
+
+.heading h2 {
+    color: #000;
+}
+.form-group label,.help-block{
+    color: #000;
+}
+
+input[type="file"] {
+    display: block;
+    padding: 0px 0px;
+}
+
+.btn-info{
+    background-color: #31b0d5;
+    border-color: #1b6d85;
+    color: #fff;
+}
+.btn-info:hover{
+    background-color: #31b0d5;
+    border-color: #1b6d85;
+    color: #fff;
+}
+.navbar-header a:hover{
+    background-color: #080808;
+}
+
+.form-control {
+    color: #000;
+}
+
+ul#active li ul li a {
+    display: block;
+    line-height: 10px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    text-decoration:none;
+}
+
+ul#active li ul li a:hover {
+    background-color: #000;
+}
+
+.top-nav li.active a, .top-nav li a:hover {
+    text-decoration: none;
+}
+div#grid:last-child{
+    margin:0 !important;
+}
